@@ -249,3 +249,16 @@
 .trail-content h5{font-size:14px;font-weight:500;color:var(--ink);margin-bottom:2px;}
 .trail-content p{font-size:13px;color:var(--muted);margin-bottom:4px;}
 .trail-date{font-size:11px;color:var(--faint);letter-spacing:0.5px;}
+
+/* ---------- CV DOWNLOAD LINK (header) ---------- */
+.cv-link{
+  display:inline-flex;align-items:center;gap:7px;
+  font-family:var(--sans);font-size:12px;letter-spacing:0.5px;
+  color:var(--ink-dim);text-decoration:none;
+  border:1px solid var(--line);
+  padding:7px 15px;margin-left:14px;
+  transition:border-color 0.3s ease, color 0.3s ease, background 0.3s ease;
+}
+.cv-link i{font-size:11px;}
+.cv-link:hover{border-color:var(--accent-dim);color:var(--ink);background:rgba(182,186,197,0.07);}
+@media (max-width:900px){.cv-link{margin-left:8px;padding:6px 12px;}}
