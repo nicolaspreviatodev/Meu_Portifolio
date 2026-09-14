@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nicolas Previato — Software Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@2.15.1/devicon.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h2 style="position:absolute;width:1px;height:1px;overflow:hidden;">Interactive portfolio prototype for Nicolas Previato with a 3D reactive background, custom cursor, magnetic hovers and scroll-driven text reveals.</h2>
+
+<div id="cursor-dot"></div>
+<div id="cursor-ring"></div>
+
+<div id="splash">
+  <div class="splash-word" id="splash-word"></div>
+  <div class="splash-sub">Software Engineer</div>
+  <div class="splash-line"></div>
+</div>
+
+<div id="webgl-bg"></div>
+<div id="spotlight"></div>
+<div class="grid-overlay"></div>
+
+<header id="site-header">
+  <a href="#home" class="logo magnetic">N.P.</a>
+  <nav>
+    <button data-target="home" class="active magnetic">Home</button>
+    <button data-target="about" class="magnetic">About</button>
+    <button data-target="work" class="magnetic">Work</button>
+    <button data-target="skills" class="magnetic">Skills</button>
+    <button data-target="contact" class="magnetic">Contact</button>
+  </nav>
+</header>
+
+<div id="side-nav">
+  <div class="dot-wrap active" data-target="home"><span class="label">Home</span><span class="dot"></span></div>
+  <div class="dot-wrap" data-target="about"><span class="label">About</span><span class="dot"></span></div>
+  <div class="dot-wrap" data-target="work"><span class="label">Work</span><span class="dot"></span></div>
+  <div class="dot-wrap" data-target="skills"><span class="label">Skills</span><span class="dot"></span></div>
+  <div class="dot-wrap" data-target="certs"><span class="label">Certificates</span><span class="dot"></span></div>
+  <div class="dot-wrap" data-target="contact"><span class="label">Contact</span><span class="dot"></span></div>
+</div>
+
+<section id="home">
+  <div class="hero-title">
+    <span class="mask"><span class="mask-inner">Building backend</span></span>
+    <span class="mask"><span class="mask-inner">systems with an <em>eye</em></span></span>
+    <span class="mask"><span class="mask-inner">for security.</span></span>
+  </div>
+  <p class="hero-sub fade d1">
+    Nicolas Previato — a software engineering student from Sorocaba, Brazil, currently
+    pursuing Multiplatform Software Development at FATEC. Focused on backend
+    engineering today, with a long-term path toward DevSecOps and security-minded development.
+  </p>
+  <div class="hero-meta fade d2">
+    <div><strong>Based in</strong>Sorocaba, SP — Brazil</div>
+    <div><strong>Focus</strong>Backend Engineering</div>
+    <div><strong>Next step</strong>DevSecOps / Security</div>
+  </div>
+  <div class="scroll-cue"><div class="line"></div>SCROLL</div>
+</section>
+
+<section id="about">
+  <div class="kicker"><span class="mask"><span class="mask-inner">Who is Nicolas Previato</span></span></div>
+  <div class="about-grid">
+    <div class="fade">
+      <div class="photo-frame tilt"><img src="assets/img/profile.jpg" alt="Nicolas Previato"></div>
+    </div>
+    <div class="about-text fade d1">
+      <h3>A backend-minded engineer, learning in public.</h3>
+
+      <div class="career-trail">
+        <div class="trail-item">
+          <div class="trail-marker"><span class="trail-dot"></span><span class="trail-line"></span></div>
+          <div class="trail-content">
+            <h5>Systems Analysis and Development</h5>
+            <p>PEI Joaquim Izidoro Marins — technical program</p>
+            <span class="trail-date">2024 — 2025</span>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-marker"><span class="trail-dot"></span><span class="trail-line"></span></div>
+          <div class="trail-content">
+            <h5>Multiplatform Software Development</h5>
+            <p>FATEC Votorantim — bachelor's degree</p>
+            <span class="trail-date">2026 — 2029</span>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-marker"><span class="trail-dot active"></span></div>
+          <div class="trail-content">
+            <h5>Software Engineer Intern</h5>
+            <p>Digital Nerd</p>
+            <span class="trail-date">Aug 2026 — Present</span>
+          </div>
+        </div>
+      </div>
+
+      <p>I'm passionate about technology and enjoy challenges and problem-solving. I enjoy
+      logic puzzles like chess and Sudoku. In my free time, I read books, watch movies and
+      TV shows, and play sports such as going to the gym, soccer, running, and tennis.</p>
+      <p>I'm passionate about learning new things and developing my technical skills and
+      soft skills — I'm known for my strong communication and my ability to work well with
+      others and as part of a team. Outside of class, I develop projects from start to end,
+      from <strong>Travel Match</strong>, a travel website built with Spring Boot featuring
+      AI-generated recommendations, to <strong>MasterCook</strong>, a recipe platform built
+      with Django that I created as my final graduation project.</p>
+      <p>Currently, I work as a <strong>Software Engineer Intern at Digital Nerd</strong>,
+      creating and maintaining client systems, developing REST APIs and AI agents, and
+      working daily on system development and maintenance — while deepening my knowledge
+      of cloud computing through the <strong>AWS Cloud Practitioner</strong> certification,
+      with a long-term focus on secure, well-designed backend systems.</p>
+      <p>I'm seeking constant growth as a software engineering professional, ready to take
+      on new challenges — currently working toward my next step as a
+      <strong>Junior Software Engineer</strong>.</p>
+    </div>
+  </div>
+
+  <div class="timeline-label fade d2">Education</div>
+  <div class="timeline fade d2">
+    <div class="t-row">
+      <div class="t-num">01</div>
+      <div><h4>Multiplatform Software Development</h4><p>FATEC Votorantim — undergraduate, technologist degree</p></div>
+      <div class="t-date">2026 — 2029</div>
+    </div>
+    <div class="t-row">
+      <div class="t-num">02</div>
+      <div><h4>Systems Analysis and Development</h4><p>PEI Joaquim Izidoro Marins — integrated technical + high school program</p></div>
+      <div class="t-date">2024 — 2025</div>
+    </div>
+  </div>
+
+  <div class="timeline-label fade d3">Experience</div>
+  <div class="timeline fade d3">
+    <div class="t-row">
+      <div class="t-num">01</div>
+      <div><h4>Software Engineer Intern</h4><p>Digital Nerd — client systems development &amp; REST APIs, AI agent development, PostgreSQL, daily system maintenance, Work with IA, Claude and Claude Code</p></div>
+      <div class="t-date">Aug 2026 — Present</div>
+    </div>
+    <div class="t-row">
+      <div class="t-num">02</div>
+      <div><h4>Teaching Assistant, Computing &amp; English</h4><p>Chroma Tecnologia Escola de Informática (UNIFECAF) — Office, Python, English instruction</p></div>
+      <div class="t-date">Ongoing</div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="kicker"><span class="mask"><span class="mask-inner">Selected work</span></span></div>
+  <h2 class="section-title"><span class="mask"><span class="mask-inner">Two projects built end to end — from database to interface.</span></span></h2>
+
+  <div class="project fade">
+    <div>
+      <div class="p-index">01</div>
+      <h4>Travel Match</h4>
+      <p>A travel recommendation platform that pairs user preferences and budget with
+      AI-generated destination suggestions. Built with a JWT-secured REST API and a
+      dark, editorial front end.</p>
+      <div class="tag-row">
+        <span class="tag"><i class="devicon-java-plain"></i> Java</span>
+        <span class="tag"><i class="devicon-spring-plain"></i> Spring Boot</span>
+        <span class="tag"><i class="devicon-postgresql-plain"></i> PostgreSQL</span>
+        <span class="tag"><i class="fa-solid fa-wand-magic-sparkles"></i> Gemini API</span>
+        <span class="tag"><i class="devicon-tailwindcss-plain"></i> Tailwind CSS</span>
+      </div>
+    </div>
+    <div class="p-visual tilt"><div class="p-grid"></div><div class="p-glow"></div><div class="p-label">travel-match — in progress</div></div>
+  </div>
+
+  <div class="project fade">
+    <div>
+      <div class="p-index">02</div>
+      <h4>MasterCook</h4>
+      <p>A recipe-sharing platform built as a capstone project, with public recipe
+      discovery, user accounts, and a relational data model behind the interface.
+      Built in pairs and deployed publicly.</p>
+      <div class="tag-row">
+        <span class="tag"><i class="devicon-python-plain"></i> Python</span>
+        <span class="tag"><i class="devicon-django-plain"></i> Django</span>
+        <span class="tag"><i class="devicon-microsoftsqlserver-plain"></i> SQL Server</span>
+        <span class="tag"><i class="devicon-nodejs-plain"></i> Node.js</span>
+      </div>
+    </div>
+    <div class="p-visual tilt"><div class="p-grid"></div><div class="p-glow"></div><div class="p-label">mastercook — deployed</div></div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="kicker"><span class="mask"><span class="mask-inner">Toolkit</span></span></div>
+  <h2 class="section-title"><span class="mask"><span class="mask-inner">What I build with.</span></span></h2>
+  <div class="skills-grid fade">
+    <div class="skill-cell">
+      <h5>Languages &amp; frameworks</h5>
+      <div class="tag-row">
+        <span class="tag"><i class="devicon-java-plain"></i> Java</span>
+        <span class="tag"><i class="devicon-spring-plain"></i> Spring Boot</span>
+        <span class="tag"><i class="devicon-python-plain"></i> Python</span>
+        <span class="tag"><i class="devicon-django-plain"></i> Django</span>
+        <span class="tag"><i class="devicon-javascript-plain"></i> JavaScript</span>
+        <span class="tag"><i class="devicon-react-original"></i> React</span>
+      </div>
+    </div>
+    <div class="skill-cell">
+      <h5>Data &amp; infrastructure</h5>
+      <div class="tag-row">
+        <span class="tag"><i class="devicon-postgresql-plain"></i> PostgreSQL</span>
+        <span class="tag"><i class="devicon-mysql-plain"></i> MySQL</span>
+        <span class="tag"><i class="devicon-microsoftsqlserver-plain"></i> SQL Server</span>
+        <span class="tag"><i class="devicon-amazonwebservices-original"></i> AWS</span>
+        <span class="tag"><i class="devicon-docker-plain"></i> Docker</span>
+      </div>
+    </div>
+    <div class="skill-cell">
+      <h5>Interface &amp; tooling</h5>
+      <div class="tag-row">
+        <span class="tag"><i class="devicon-html5-plain"></i> HTML</span>
+        <span class="tag"><i class="devicon-css3-plain"></i> CSS</span>
+        <span class="tag"><i class="devicon-tailwindcss-plain"></i> Tailwind</span>
+        <span class="tag"><i class="devicon-bootstrap-plain"></i> Bootstrap</span>
+        <span class="tag"><i class="devicon-git-plain"></i> Git</span>
+        <span class="tag"><i class="fa-solid fa-plug"></i> REST APIs</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="certs">
+  <div class="kicker"><span class="mask"><span class="mask-inner">Certificates &amp; coursework</span></span></div>
+  <h2 class="section-title"><span class="mask"><span class="mask-inner">Continuous, structured learning.</span></span></h2>
+  <div class="cert-list fade">
+    <div class="cert-row"><span class="c-name">CS50x Cybersecurity</span><span class="c-org">HarvardX</span></div>
+    <div class="cert-row"><span class="c-name">Fundamentos de Segurança Cibernética</span><span class="c-org">IBM + Santander Open Academy</span></div>
+    <div class="cert-row"><span class="c-name">Fluência em Inteligência Artificial</span><span class="c-org">Microsoft + Fundação Bradesco</span></div>
+    <div class="cert-row"><span class="c-name">IA e Responsabilidade</span><span class="c-org">IBM + Santander Open Academy</span></div>
+    <div class="cert-row"><span class="c-name">Análise de Dados no Power BI</span><span class="c-org">Fundação Bradesco</span></div>
+    <div class="cert-row"><span class="c-name">Projetos de Sistemas de TI</span><span class="c-org">Fundação Bradesco</span></div>
+    <div class="cert-row"><span class="c-name">Microsoft Excel Intermediário</span><span class="c-org">Fundação Bradesco</span></div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="kicker"><span class="mask"><span class="mask-inner">Get in touch</span></span></div>
+  <div class="contact-title"><span class="mask"><span class="mask-inner">Open to backend engineering opportunities — let's talk.</span></span></div>
+  <div class="contact-links fade d1">
+    <a href="mailto:silvapreviatonicolas@gmail.com" class="magnetic"><i class="fa-solid fa-envelope"></i> Email</a>
+    <a href="https://linkedin.com/in/nicolaspreviato/" target="_blank" class="magnetic"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+    <a href="https://github.com/nicolaspreviatodev" target="_blank" class="magnetic"><i class="fa-brands fa-github"></i> GitHub</a>
+    <a href="https://wa.me/5515996891028" target="_blank" class="magnetic"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+  </div>
+</section>
+
+<footer>Nicolas Previato — Sorocaba, SP, Brazil. Prototype build, 2026.</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
